@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy this file to config.json and edit it. config.json is gitignored so your real group names, colleagues' project names and folder paths stay off GitHub.",
+  "groups": [
+    "Exact WhatsApp group subject 1",
+    "Exact WhatsApp group subject 2"
+  ],
+  "outputDir": "C:/path/to/where/the/markdown/exports/go",
+  "renderEveryMinutes": 15,
+  "historyDays": 30,
+  "timezone": "Pacific/Auckland"
+}

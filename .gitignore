@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# NEVER COMMIT - live WhatsApp companion-device session.
+# Anyone holding this folder has full read access to the linked account:
+# credentials, pre-keys, session records, tctokens and an address-book-wide
+# LID <-> phone-number mapping. Getting this into git would be unrecoverable.
+auth/
+
+# Captured personal data: message contents, contact names, phone numbers.
+data/
+*.jsonl
+
+# Runtime logs - these embed participant names and phone numbers.
+*.log
+
+# Runtime scratch files.
+qr.png
+qr-payload.txt
+stop.flag
+
+# Local machine config (holds the operator's real folder paths + group names).
+config.json
+
+# Dependencies - reinstall with `npm install`.
+node_modules/
+
+# Editor / OS noise.
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
